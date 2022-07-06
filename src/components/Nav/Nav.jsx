@@ -32,19 +32,19 @@ const Nav = () => {
   window.addEventListener('scroll', scrolled)
   return (
     <nav>
-      <a href='#home' onClick={() => setActiveNav(0)} className={activeNav === 0 ? 'active' : ''}>
+      <a href='#home' title='Home' onClick={() => setActiveNav(0)} className={activeNav === 0 ? 'active' : ''}>
         <AiOutlineHome />
       </a>
-      <a href='#about' onClick={() => setActiveNav(1057)} className={activeNav === 821 ? 'active' : ''}>
+      <a href='#about' title='About' onClick={() => setActiveNav(1057)} className={activeNav === 821 ? 'active' : ''}>
         <AiOutlineUser />
       </a>
-      <a href='#experience' onClick={() => setActiveNav(1670)} className={activeNav === 1481 ? 'active' : ''}>
+      <a href='#experience' title='Experiences' onClick={() => setActiveNav(1670)} className={activeNav === 1481 ? 'active' : ''}>
         <BiBook />
       </a>
-      <a href='#services' onClick={() => setActiveNav(2255)} className={activeNav === 2191 ? 'active' : ''}>
+      <a href='#services' title='Services' onClick={() => setActiveNav(2255)} className={activeNav === 2191 ? 'active' : ''}>
         <RiServiceLine />
       </a>
-      <a href='#contact' onClick={() => setActiveNav(3800)} className={activeNav === 3633 ? 'active' : ''}>
+      <a href='#contact' title='Contact' onClick={() => setActiveNav(3800)} className={activeNav === 3633 ? 'active' : ''}>
         <BiMessageSquareDetail />
       </a>
     </nav>

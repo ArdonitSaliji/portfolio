@@ -7,10 +7,10 @@ import glass from '../../glass.png'
 const data = [
   {
     id: 1,
-    image: uni,
-    title: 'University Website Design',
-    github: 'https://github.com/ArdonitSaliji/University-Website-Design',
-    demo: 'https://ardonitsaliji.github.io/University-Website-Design/',
+    image: jokes,
+    title: 'Meme Generator Website',
+    github: 'https://github.com/ArdonitSaliji/MemeGenerator',
+    demo: 'https://ardonitsaliji.github.io/MemeGenerator/',
   },
   {
     id: 2,
@@ -22,16 +22,16 @@ const data = [
   {
     id: 3,
     image: ulqin,
-    title: 'Ulqin Restaurant Website',
+    title: 'Restaurant Website',
     github: 'https://github.com/ArdonitSaliji/Ulqin-React',
     demo: 'https://ardonitsaliji.github.io/Ulqin-React/',
   },
   {
     id: 4,
-    image: jokes,
-    title: 'Meme Generator Website',
-    github: 'https://github.com/ArdonitSaliji/MemeGenerator',
-    demo: 'https://ardonitsaliji.github.io/MemeGenerator/',
+    image: uni,
+    title: 'University Website Design',
+    github: 'https://github.com/ArdonitSaliji/University-Website-Design',
+    demo: 'https://ardonitsaliji.github.io/University-Website-Design/',
   },
   {
     id: 5,

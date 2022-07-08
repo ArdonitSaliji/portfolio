@@ -32,6 +32,9 @@ header {
   left: 0;
   bottom: 3rem;
 }
+.socials {
+  font-size: 2em;
+}
 
 .header_socials::after {
   content: '';

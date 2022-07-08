@@ -9,8 +9,8 @@ const data = [
     id: 1,
     image: jokes,
     title: 'Meme Generator Website',
-    github: 'https://github.com/ArdonitSaliji/MemeGenerator',
-    demo: 'https://ardonitsaliji.github.io/MemeGenerator/',
+    github: 'https://github.com/ArdonitSaliji/memeGenerator',
+    demo: 'https://ardonitsaliji.github.io/memeGenerator/',
   },
   {
     id: 2,
@@ -23,8 +23,8 @@ const data = [
     id: 3,
     image: ulqin,
     title: 'Restaurant Website',
-    github: 'https://github.com/ArdonitSaliji/Ulqin-React',
-    demo: 'https://ardonitsaliji.github.io/Ulqin-React/',
+    github: 'https://github.com/ArdonitSaliji/restaurant-react',
+    demo: 'https://ardonitsaliji.github.io/restaurant-react/',
   },
   {
     id: 4,

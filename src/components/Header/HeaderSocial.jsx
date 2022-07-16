@@ -17,9 +17,6 @@ const HeaderSocial = () => {
       <a href='https://github.com/ArdonitSaliji' target='_blank' rel='noreferrer'>
         <FaGithub className='socials' />
       </a>
-      <a href='https://instagram.com' target='_blank' rel='noreferrer'>
-        <FiDribbble className='socials' />
-      </a>
     </div>
   )
 }

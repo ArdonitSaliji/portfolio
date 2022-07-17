@@ -6,7 +6,7 @@ import { AiOutlineUser } from 'react-icons/ai'
 import { BiBook } from 'react-icons/bi'
 import { RiServiceLine } from 'react-icons/ri'
 import { BiMessageSquareDetail } from 'react-icons/bi'
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 
 const Nav = () => {
   const [activeNav, setActiveNav] = useState(window.scrollY)
@@ -24,27 +24,53 @@ const Nav = () => {
     if (window.scrollY > 2190) {
       setActiveNav(2191)
     }
-    if (window.scrollY > 3632) {
+    if (window.scrollY > 3200) {
       setActiveNav(3633)
     }
   }
-
-  window.addEventListener('scroll', scrolled)
+  useEffect(() => {
+    window.addEventListener('scroll', scrolled)
+  }, [])
   return (
     <nav>
-      <a href='#home' title='Home' onClick={() => setActiveNav(0)} className={activeNav === 0 ? 'active' : ''}>
+      <a
+        href='#home'
+        title='Home'
+        onClick={() => setActiveNav(0)}
+        className={activeNav === 0 ? 'active' : ''}
+      >
         <AiOutlineHome />
       </a>
-      <a href='#about' title='About' onClick={() => setActiveNav(1057)} className={activeNav === 821 ? 'active' : ''}>
+      <a
+        href='#about'
+        title='About'
+        onClick={() => setActiveNav(1057)}
+        className={activeNav === 821 ? 'active' : ''}
+      >
         <AiOutlineUser />
       </a>
-      <a href='#experience' title='Experiences' onClick={() => setActiveNav(1670)} className={activeNav === 1481 ? 'active' : ''}>
+      <a
+        href='#experience'
+        title='Experiences'
+        onClick={() => setActiveNav(1670)}
+        className={activeNav === 1481 ? 'active' : ''}
+      >
         <BiBook />
       </a>
-      <a href='#services' title='Services' onClick={() => setActiveNav(2255)} className={activeNav === 2191 ? 'active' : ''}>
+      <a
+        href='#portfolio'
+        title='Portfolio'
+        onClick={() => setActiveNav(2255)}
+        className={activeNav === 2191 ? 'active' : ''}
+      >
         <RiServiceLine />
       </a>
-      <a href='#contact' title='Contact' onClick={() => setActiveNav(3800)} className={activeNav === 3633 ? 'active' : ''}>
+      <a
+        href='#contact'
+        title='Contact'
+        onClick={() => setActiveNav(3634)}
+        className={activeNav === 3633 ? 'active' : ''}
+      >
         <BiMessageSquareDetail />
       </a>
     </nav>

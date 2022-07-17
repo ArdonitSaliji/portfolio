@@ -1,7 +1,7 @@
 import React from 'react'
 import '../../index.css'
 import './About.css'
-import Me from '../../me.jpg'
+import me from '../../images/me.jpg'
 import { FaAward } from 'react-icons/fa'
 import { FiUsers } from 'react-icons/fi'
 import { VscFolderLibrary } from 'react-icons/vsc'
@@ -15,7 +15,7 @@ const About = () => {
       <div className='container about__container'>
         <div className='about__me'>
           <div className='about__me-image'>
-            <img src={Me} alt='About' />
+            <img src={me} alt='About' />
           </div>
         </div>
         <div className='about__content'>
@@ -36,7 +36,10 @@ const About = () => {
               <small>15+ Completed Projects</small>
             </article>
           </div>
-          <p>Hi, my name is Ardonit Saliji. I am young and ambitious Developer looking to enhance my skills and to become better everyday.</p>
+          <p>
+            Hi, my name is Ardonit Saliji. I am young and ambitious Developer looking to enhance my
+            skills and to become better everyday.
+          </p>
           <a href='#contact' className='btn btn-primary'>
             Let's talk
           </a>

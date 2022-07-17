@@ -1,6 +1,5 @@
 import React from 'react'
 import { AiOutlineClose } from 'react-icons/ai'
-import lightNotes from '../../light-notes.png'
 import { Swiper, SwiperSlide } from 'swiper/react'
 import { Navigation, Pagination, Scrollbar, A11y } from 'swiper'
 import './portfolio.css'

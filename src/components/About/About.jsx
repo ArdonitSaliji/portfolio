@@ -28,7 +28,7 @@ const About = () => {
             <article className='about__card'>
               <FiUsers className='about__icon' />
               <h5>Clients</h5>
-              <small>15+ Worldwide</small>
+              <small>15+</small>
             </article>
             <article className='about__card'>
               <VscFolderLibrary className='about__icon' />
@@ -36,10 +36,7 @@ const About = () => {
               <small>15+ Completed Projects</small>
             </article>
           </div>
-          <p>
-            Hi, my name is Ardonit Saliji. I am young and ambitious Developer looking to enhance my
-            skills and to become better everyday.
-          </p>
+          <p>Hi, my name is Ardonit Saliji, an ambitious Developer from North Macedonia.</p>
           <a href='#contact' className='btn btn-primary'>
             Let's talk
           </a>

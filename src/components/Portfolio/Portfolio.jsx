@@ -1,3 +1,4 @@
+/* eslint-disable jsx-a11y/alt-text */
 /* eslint-disable jsx-a11y/anchor-is-valid */
 import React from 'react'
 import { AiOutlineClose } from 'react-icons/ai'
@@ -14,8 +15,8 @@ const Portfolio = () => {
   const [popup, setPopup] = React.useState(false)
   const [popupImage, setPopupImage] = React.useState('')
   const images = (image) =>
-    image.map((img) => (
-      <SwiperSlide>
+    image.map((img, index) => (
+      <SwiperSlide key={index}>
         <img
           src={img}
           onClick={() => {
@@ -26,16 +27,15 @@ const Portfolio = () => {
         />
       </SwiperSlide>
     ))
-
   return (
     <section id='portfolio'>
       <h5>My Recent Work</h5>
       <h2>Portfolio</h2>
       <div className='container portfolio__container'>
-        {data.map(({ id, image, title, github, demo }) => {
+        {data.map(({ image, title, github, demo }, index) => {
           return (
-            <article key={id} className='portfolio__item'>
-              <div className='portfolio__item-img'>
+            <article key={index} className='portfolio__item'>
+              <div id='item' className='portfolio__item-img'>
                 <Swiper
                   modules={[Navigation, Pagination, Scrollbar, A11y]}
                   spaceBetween={5}
@@ -61,7 +61,17 @@ const Portfolio = () => {
 
         <div className={popup ? 'popup active' : 'popup'}>
           <AiOutlineClose className='x' onClick={() => setPopup(false)} color='white' />
-          <img className='popup-img' src={popupImage} alt='' />
+
+          <Swiper
+            modules={[Navigation, Pagination, Scrollbar, A11y]}
+            spaceBetween={1}
+            slidesPerView={1}
+            navigation
+          >
+            <SwiperSlide>
+              <img className='popup-img' src={popupImage}></img>
+            </SwiperSlide>
+          </Swiper>
         </div>
       </div>
     </section>

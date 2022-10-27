@@ -23,15 +23,15 @@ const data = [
   },
 
   {
-    name: 'ulqin',
+    name: 'Jewerelly E-Commerce',
     image: [
-      require('../../images/ulqin.png'),
-      require('../../images/ulqinMenu.png'),
-      require('../../images/ulqinLocation.png'),
+      require('../../images/jewerelly.png'),
+      require('../../images/jewerelly2.png'),
+      require('../../images/jewerelly3.png'),
     ],
-    title: 'Restaurant Website',
-    github: 'https://github.com/ArdonitSaliji/restaurant-react',
-    demo: 'https://ardonitsaliji.github.io/restaurant-react/',
+    title: 'Jewerelly E-Commerce',
+    github: 'https://github.com/ArdonitSaliji/jewerelly-eCommerce',
+    demo: 'https://ardonitsaliji.github.io/jewerelly-eCommerce/',
   },
   {
     name: 'note',

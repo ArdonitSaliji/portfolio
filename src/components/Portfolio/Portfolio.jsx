@@ -51,6 +51,9 @@ const Portfolio = () => {
                 <a href={github} target='_blank' rel='noreferrer' className='btn'>
                   Github
                 </a>
+                <a href={demo} target='_blank' rel='noreferrer' className='btn btn-primary'>
+                  Live Demo
+                </a>
               </div>
             </article>
           )
@@ -59,16 +62,7 @@ const Portfolio = () => {
         <div className={popup ? 'popup active' : 'popup'}>
           <AiOutlineClose className='x' onClick={() => setPopup(false)} color='white' />
 
-          <Swiper
-            modules={[Navigation, Pagination, Scrollbar, A11y]}
-            spaceBetween={1}
-            slidesPerView={1}
-            navigation
-          >
-            <SwiperSlide>
-              <img className='popup-img' src={popupImage}></img>
-            </SwiperSlide>
-          </Swiper>
+          <img className='popup-img' src={popupImage}></img>
         </div>
       </div>
     </section>

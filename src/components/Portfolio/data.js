@@ -26,9 +26,21 @@ const data = [
     demo: 'https://ardonitsaliji.github.io/db-user-management/',
   },
   {
+    name: 'Modern UI/UX',
+    image: [
+      require('../../images/modern1.png'),
+      require('../../images/modern2.png'),
+      require('../../images/modern3.png'),
+      require('../../images/modern4.png'),
+      require('../../images/modern5.png'),
+    ],
+    title: 'GPT-3 OpenAI (Modern UI/UX)',
+    github: 'https://github.com/ArdonitSaliji/JavaScript/tree/main/notes-project',
+  },
+  {
     name: 'meme',
     image: [require('../../images/jokes3.png'), require('../../images/jokes.png')],
-    title: 'Meme Generator Website',
+    title: 'Meme Editor Website',
     github: 'https://github.com/ArdonitSaliji/JavaScript/tree/main/memes-project',
   },
 
@@ -42,12 +54,6 @@ const data = [
     title: 'Jewerelly Online Store',
     github: 'https://github.com/ArdonitSaliji/JavaScript/tree/main/jewerelly-project',
     demo: 'https://ardonitsaliji.github.io/jewerelly-store/',
-  },
-  {
-    name: 'note',
-    image: [require('../../images/dark-notes.png'), require('../../images/light-notes.png')],
-    title: 'Notes App',
-    github: 'https://github.com/ArdonitSaliji/JavaScript/tree/main/notes-project',
   },
 ]
 export default data

@@ -35,7 +35,8 @@ const data = [
       require('../../images/modern5.png'),
     ],
     title: 'GPT-3 OpenAI (Modern UI/UX)',
-    github: 'https://github.com/ArdonitSaliji/JavaScript/tree/main/notes-project',
+    github: 'https://github.com/ArdonitSaliji/modern-ui-ux',
+    demo: 'https://ardonitsaliji.github.io/modern-ui-ux/',
   },
   {
     name: 'meme',
@@ -45,7 +46,7 @@ const data = [
   },
 
   {
-    name: 'Jewerelly Store',
+    name: 'Jewerelly Store (In Progress)',
     image: [
       require('../../images/jewerelly.png'),
       require('../../images/jewerelly2.png'),

@@ -7,6 +7,13 @@ const data = [
     demo: 'https://ardonitsaliji.github.io/chess-project/',
   },
   {
+    name: 'Jewerelly Store (In Progress)',
+    image: [require('../../images/jewerelly2.png'), require('../../images/jewerelly1.png')],
+    title: 'Gem  Store',
+    github: 'https://github.com/ArdonitSaliji/JavaScript/tree/main/jewerelly-project',
+    // demo: 'https://ardonitsaliji.github.io/jewerelly-store/',
+  },
+  {
     name: 'snake',
     image: [require('../../images/snake-game1.png'), require('../../images/snake-game2.png')],
     title: 'Snake Game',
@@ -44,17 +51,5 @@ const data = [
     title: 'Meme Editor Website',
     github: 'https://github.com/ArdonitSaliji/JavaScript/tree/main/memes-project',
   },
-
-  {
-    name: 'Jewerelly Store (In Progress)',
-    image: [
-      require('../../images/jewerelly.png'),
-      require('../../images/jewerelly2.png'),
-      require('../../images/jewerelly3.png'),
-    ],
-    title: 'Jewerelly Online Store',
-    github: 'https://github.com/ArdonitSaliji/JavaScript/tree/main/jewerelly-project',
-    demo: 'https://ardonitsaliji.github.io/jewerelly-store/',
-  },
-]
-export default data
+];
+export default data;

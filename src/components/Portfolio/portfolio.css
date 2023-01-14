@@ -12,6 +12,26 @@
   justify-content: center;
   gap: 3rem;
 }
+.more-projects {
+  overflow: hidden;
+  transition: 1s all;
+}
+
+.portfolio__container.more {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 1s;
+  margin-top: 2rem;
+}
+.show-more {
+  text-align: center;
+  margin: 3rem 0;
+  color: var(--color-primary);
+  cursor: pointer;
+}
+.show-more:active {
+  color: var(--color-primary-variant);
+}
 
 .x {
   z-index: 321656;

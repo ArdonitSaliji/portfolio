@@ -8,6 +8,7 @@ const data = [
     ],
     title: "Sociopedia (Social Media Website)",
     github: "https://github.com/ArdonitSaliji/social-media",
+    // demo: "",
   },
   {
     name: "chess",
@@ -72,11 +73,24 @@ export default data;
 
 export const more = [
   {
+    name: "Note Zipper",
+    image: [
+      require("../../images/notes.png"),
+      require("../../images/notes2.png"),
+      require("../../images/notes3.png"),
+      require("../../images/notes4.png"),
+    ],
+    title: "Note Zipper",
+    github: "https://github.com/ArdonitSaliji/note-zipper",
+    // demo: "",
+  },
+  {
     name: "meme",
     image: [require("../../images/jokes3.png")],
     title: "Meme Editor Website",
     github:
       "https://github.com/ArdonitSaliji/JavaScript/tree/main/memes-project",
+    // demo: "",
   },
 
   {
@@ -91,21 +105,4 @@ export const more = [
     github: "https://github.com/ArdonitSaliji/university-website",
     demo: "https://ardonitsaliji.github.io/university-website/",
   },
-  {
-    name: "Jewerelly Store (In Progress)",
-    image: [
-      require("../../images/jewerelly2.png"),
-      require("../../images/jewerelly1.png"),
-    ],
-    title: "Gem  Store",
-    github:
-      "https://github.com/ArdonitSaliji/JavaScript/tree/main/jewerelly-project",
-    // demo: 'https://ardonitsaliji.github.io/jewerelly-store/',
-  },
-  // {
-  //   name: 'meme',
-  //   image: [require('../../images/jokes3.png'), require('../../images/jokes.png')],
-  //   title: 'Meme Editor Website',
-  //   github: 'https://github.com/ArdonitSaliji/JavaScript/tree/main/memes-project',
-  // },
 ];

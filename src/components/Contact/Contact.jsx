@@ -18,6 +18,15 @@ const Contact = () => {
     );
     e.target.reset();
   };
+  //Users from PC will be sent to web whatsapp
+  const whatsappRedirect = () => {
+    let deviceWidth = window.innerWidth;
+    if (deviceWidth < 1024) {
+      return "https://api.whatsapp.com/send?phone=00389070580897";
+    } else {
+      return "https://web.whatsapp.com/send?phone=00389070580897";
+    }
+  };
 
   return (
     <section id="contact">
@@ -53,11 +62,7 @@ const Contact = () => {
             <BsWhatsapp className="contact__option-icon" />
             <h4>WhatsApp</h4>
             <h5>+38970580897</h5>
-            <a
-              href="https://api.whatsapp.com/send?phone=+389070580897"
-              target="_blank"
-              rel="noreferrer"
-            >
+            <a href={whatsappRedirect()} target="_blank" rel="noreferrer">
               Send a message
             </a>
           </article>

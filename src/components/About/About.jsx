@@ -3,7 +3,7 @@ import "../../index.css";
 import "./About.css";
 import me from "../../images/me.jpg";
 import { FaAward } from "react-icons/fa";
-import { FiUsers } from "react-icons/fi";
+// import { FiUsers } from "react-icons/fi";
 import { VscFolderLibrary } from "react-icons/vsc";
 
 const About = () => {
@@ -33,8 +33,8 @@ const About = () => {
             </article>
           </div>
           <p>
-            Hi, my name is Ardonit Saliji, an ambitious Developer from North
-            Macedonia.
+            Hi, my name is Ardonit Saliji, I am an ambitious Developer from
+            North Macedonia.
           </p>
           <a href="#contact" className="btn btn-primary">
             Let's talk

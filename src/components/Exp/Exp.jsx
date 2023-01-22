@@ -19,7 +19,7 @@ const backendExp = [
   { MySQL: "Intermediate" },
   { MongoDB: "Experienced" },
   { Python: "Beginner" },
-  { "C lang": "Beginner" },
+  { "C (Programming Language)": "Beginner" },
   { "Microsoft Azure and Transact-SQL": "Intermediate" },
   { Laravel: "Beginner" },
 ];
@@ -34,8 +34,8 @@ const Exp = () => {
         <div className="experience__frontend">
           <h3>Frontend Development</h3>
           <div className="experience__content">
-            {frontendExp.map((obj) => (
-              <article className="experience__details">
+            {frontendExp.map((obj, index) => (
+              <article key={index} className="experience__details">
                 <BsPatchCheckFill className="experience__details-icon" />
                 <div>
                   <h4>{Object.keys(obj)[0]}</h4>
@@ -49,8 +49,8 @@ const Exp = () => {
         <div className="experience__backend">
           <h3>Backend Development</h3>
           <div className="experience__content">
-            {backendExp.map((obj) => (
-              <article className="experience__details">
+            {backendExp.map((obj, index) => (
+              <article key={index} className="experience__details">
                 <BsPatchCheckFill className="experience__details-icon" />
                 <div>
                   <h4>{Object.keys(obj)[0]}</h4>

@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/portfolio/static/css/main.44d395a3.css",
-    "main.js": "/portfolio/static/js/main.4f1af13b.js",
+    "main.js": "/portfolio/static/js/main.80d0f566.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/modern5.png": "/portfolio/static/media/modern5.82e7702239bca8972cce.png",
     "static/media/uni2.png": "/portfolio/static/media/uni2.725aceb8a85c522dd1d4.png",
@@ -24,7 +24,7 @@
     "static/media/chess1.png": "/portfolio/static/media/chess1.c52ccddffb7cf4f3e65d.png",
     "static/media/snake-game2.png": "/portfolio/static/media/snake-game2.9358e333e269d4150b39.png",
     "static/media/snake-game1.png": "/portfolio/static/media/snake-game1.7ecf3f298f51a4bbb8e0.png",
-    "static/media/resume.pdf": "/portfolio/static/media/resume.ed17c8a57ed038b2ab33.pdf",
+    "static/media/resume.pdf": "/portfolio/static/media/resume.7aa13cfe01663f962d83.pdf",
     "static/media/db-manag3.png": "/portfolio/static/media/db-manag3.51bed0ee12f202aa8635.png",
     "static/media/notes3.png": "/portfolio/static/media/notes3.21b97a85ac6127d5b254.png",
     "static/media/notes2.png": "/portfolio/static/media/notes2.302adeba2a40befd8889.png",
@@ -34,11 +34,11 @@
     "static/media/notes4.png": "/portfolio/static/media/notes4.1b1ee64ee41c090bfaa2.png",
     "index.html": "/portfolio/index.html",
     "main.44d395a3.css.map": "/portfolio/static/css/main.44d395a3.css.map",
-    "main.4f1af13b.js.map": "/portfolio/static/js/main.4f1af13b.js.map",
+    "main.80d0f566.js.map": "/portfolio/static/js/main.80d0f566.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.44d395a3.css",
-    "static/js/main.4f1af13b.js"
+    "static/js/main.80d0f566.js"
   ]
 }

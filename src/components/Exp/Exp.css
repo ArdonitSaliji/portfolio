@@ -30,11 +30,13 @@
   display: grid;
   grid-template-columns: 1fr 1fr;
   row-gap: 2rem;
+  padding-bottom: 1rem;
 }
 
 .experience__details {
   display: flex;
   gap: 1rem;
+  padding: 0.5rem 0;
 }
 
 .experience__details-icon {

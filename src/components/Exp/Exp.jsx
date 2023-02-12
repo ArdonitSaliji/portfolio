@@ -15,6 +15,7 @@ const frontendExp = [
   { Sass: 'Experienced' },
   { 'Material-UI': '' },
 ];
+
 const backendExp = [
   { 'Node and Express js': 'Intermediate' },
   { PHP: 'Intermediate' },

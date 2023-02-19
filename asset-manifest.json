@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/portfolio/static/css/main.7202411e.css",
-    "main.js": "/portfolio/static/js/main.a04b866a.js",
+    "main.css": "/portfolio/static/css/main.87e3a494.css",
+    "main.js": "/portfolio/static/js/main.c73105fc.js",
     "static/js/787.1ed0c42c.chunk.js": "/portfolio/static/js/787.1ed0c42c.chunk.js",
     "static/media/modern5.png": "/portfolio/static/media/modern5.82e7702239bca8972cce.png",
     "static/media/uni2.png": "/portfolio/static/media/uni2.725aceb8a85c522dd1d4.png",
@@ -19,13 +19,13 @@
     "static/media/db-manag4.png": "/portfolio/static/media/db-manag4.45ab44949ad150e1fced.png",
     "static/media/jewerelly2.png": "/portfolio/static/media/jewerelly2.aa6635a3d91d93a25c22.png",
     "static/media/socio2.png": "/portfolio/static/media/socio2.2b02b7b28c7e2fbe1a40.png",
-    "static/media/me.jpg": "/portfolio/static/media/me.b9bf1ffa1503f82dc3a3.jpg",
     "static/media/chess2.png": "/portfolio/static/media/chess2.29b2e74372028b81da55.png",
     "static/media/chess1.png": "/portfolio/static/media/chess1.c52ccddffb7cf4f3e65d.png",
     "static/media/snake-game2.png": "/portfolio/static/media/snake-game2.9358e333e269d4150b39.png",
     "static/media/snake-game1.png": "/portfolio/static/media/snake-game1.7ecf3f298f51a4bbb8e0.png",
     "static/media/resume.pdf": "/portfolio/static/media/resume.7aa13cfe01663f962d83.pdf",
     "static/media/db-manag3.png": "/portfolio/static/media/db-manag3.51bed0ee12f202aa8635.png",
+    "static/media/me1.jpeg": "/portfolio/static/media/me1.0b1232e4d90c93c6a240.jpeg",
     "static/media/notes3.png": "/portfolio/static/media/notes3.21b97a85ac6127d5b254.png",
     "static/media/notes2.png": "/portfolio/static/media/notes2.302adeba2a40befd8889.png",
     "static/media/db-manag2.png": "/portfolio/static/media/db-manag2.7b8ba285d09df805974a.png",
@@ -33,12 +33,12 @@
     "static/media/notes.png": "/portfolio/static/media/notes.13e86cf961487162b912.png",
     "static/media/notes4.png": "/portfolio/static/media/notes4.1b1ee64ee41c090bfaa2.png",
     "index.html": "/portfolio/index.html",
-    "main.7202411e.css.map": "/portfolio/static/css/main.7202411e.css.map",
-    "main.a04b866a.js.map": "/portfolio/static/js/main.a04b866a.js.map",
+    "main.87e3a494.css.map": "/portfolio/static/css/main.87e3a494.css.map",
+    "main.c73105fc.js.map": "/portfolio/static/js/main.c73105fc.js.map",
     "787.1ed0c42c.chunk.js.map": "/portfolio/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7202411e.css",
-    "static/js/main.a04b866a.js"
+    "static/css/main.87e3a494.css",
+    "static/js/main.c73105fc.js"
   ]
 }

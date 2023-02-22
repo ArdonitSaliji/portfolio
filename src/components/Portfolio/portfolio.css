@@ -1,138 +1,140 @@
 * {
-  box-sizing: border-box;
+    box-sizing: border-box;
 }
 #portfolio {
-  padding-top: 30px;
-  position: relative;
+    padding-top: 30px;
+    position: relative;
 }
 .portfolio__container {
-  display: flex;
-  flex-wrap: wrap;
-  grid-template-columns: repeat(3, 1fr);
-  justify-content: center;
-  gap: 3rem;
+    display: flex;
+    flex-wrap: wrap;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 3rem;
 }
 .more-projects {
-  overflow: hidden;
-  transition: 1s all;
+    overflow: hidden;
+    transition: 1s all;
 }
 
 .portfolio__container.more {
-  max-height: 0;
-  overflow: hidden;
-  transition: max-height 1s;
-  margin-top: 2rem;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 1s;
+    margin-top: 2rem;
 }
 .show-more {
-  text-align: center;
-  margin: 3rem 0;
-  color: var(--color-primary);
-  cursor: pointer;
+    text-align: center;
+    margin: 3rem 0;
+    color: var(--color-primary);
+    cursor: pointer;
 }
 .show-more:active {
-  color: var(--color-primary-variant);
+    color: var(--color-primary-variant);
 }
 
 .x {
-  z-index: 321656;
-  font-size: 50px;
-  cursor: pointer;
-  color: white;
-  position: absolute;
-  top: 2rem;
-  right: 4rem;
+    z-index: 321656;
+    font-size: 50px;
+    cursor: pointer;
+    color: white;
+    position: absolute;
+    top: 2rem;
+    right: 4rem;
 }
 
 .portfolio__item {
-  background: var(--color-bg-variant);
-  padding: 1.2rem;
-  width: 26rem;
-  min-width: 14rem;
-  border-radius: 2rem;
-  border: 1px solid transparent;
+    background: var(--color-bg-variant);
+    padding: 1.2rem;
+    width: 26rem;
+    min-width: 14rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
 }
 
 .portfolio__item:hover {
-  border-color: var(--color-primary-variant);
+    border-color: var(--color-primary-variant);
 }
 
 .portfolio__item-img {
-  display: flex;
-  width: 100%;
-  height: 13rem;
-  border-radius: 1.5rem;
-  overflow-x: scroll;
-  overflow-y: hidden;
-  white-space: nowrap;
+    display: flex;
+    width: 100%;
+    height: 13rem;
+    border-radius: 1.5rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    white-space: nowrap;
 }
 
 .portfolio__item-img img {
-  width: 100%;
-  display: inline-block;
-  cursor: pointer;
+    width: 100%;
+    display: inline-block;
+    cursor: pointer;
 }
 
 .portfolio__item h3 {
-  margin: 0.8rem 0 2rem;
+    margin: 0.8rem 0 2rem;
 }
 
 .portfolio__item-cta {
-  display: flex;
-  gap: 1rem;
-  margin-bottom: 2rem;
+    display: flex;
+    gap: 1rem;
+    margin-bottom: 2rem;
 }
 .popup {
-  display: none;
-  position: fixed;
-  justify-content: center;
-  align-items: center;
-  background: rgba(0, 0, 0, 0.7);
-  z-index: 108;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
+    display: none;
+    position: fixed;
+    justify-content: center;
+    align-items: center;
+    background: rgba(0, 0, 0, 0.7);
+    z-index: 108;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
 }
 
 .popup.active {
-  display: flex;
+    display: flex;
 }
 
 .popup-img {
-  align-items: center;
-  justify-content: center;
-  display: flex;
-  width: 60%;
-  max-height: 95%;
-  margin: 0 auto;
-  object-fit: cover;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 60%;
+    max-height: 95%;
+    min-height: 30%;
+
+    margin: 0 auto;
+    object-fit: cover;
 }
 @media screen and (max-width: 1024px) {
-  .portfolio__container {
-    grid-template-columns: 1fr 1fr;
-    gap: 1.2rem;
-  }
-  .portfolio__item {
-    height: 100%;
-  }
+    .portfolio__container {
+        grid-template-columns: 1fr 1fr;
+        gap: 1.2rem;
+    }
+    .portfolio__item {
+        height: 100%;
+    }
 }
 
 @media screen and (max-width: 600px) {
-  .portfolio__container {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 2rem;
-  }
-  .portfolio__item {
-    height: 100%;
-  }
-  .popup-img {
-    width: 95%;
-    height: 35%;
-    object-fit: fill;
-  }
-  .x {
-    right: 2rem;
-  }
+    .portfolio__container {
+        display: flex;
+        justify-content: center;
+        flex-wrap: wrap;
+        gap: 2rem;
+    }
+    .portfolio__item {
+        height: 100%;
+    }
+    .popup-img {
+        width: 95%;
+        height: 35%;
+        object-fit: fill;
+    }
+    .x {
+        right: 2rem;
+    }
 }

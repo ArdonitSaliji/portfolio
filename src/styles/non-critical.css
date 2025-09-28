@@ -199,26 +199,8 @@ footer {
   color: var(--text-muted);
 }
 
-@media (max-width: 768px) {
-  /* Rules for About Section and below */
-  .about-grid {
-    grid-template-columns: 1fr;
-    text-align: center;
-  }
-  .about-image {
-    margin: 0 auto 2rem;
-  }
-  .timeline::after {
-    left: 15px;
-  }
-  .timeline-item {
-    padding-left: 3rem;
-  }
-  .timeline-dot {
-    left: 0;
-  }
-
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
+@media (max-width: 769px) {
+    .about-grid {
+        grid-template-columns: unset;
+    }
 }

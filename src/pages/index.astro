@@ -1,0 +1,180 @@
+---
+import Layout from "../layouts/Layout.astro";
+import Header from "../components/Header.astro";
+import Footer from "../components/Footer.astro";
+import Hero from "../components/Hero.astro";
+import ProjectCard from "../components/ProjectCard.astro";
+import SkillBadge from "../components/SkillBadge.astro";
+import ExperienceItem from "../components/ExperienceItem.astro";
+
+const skills = [
+  "Java",
+  "PHP",
+  "AWS",
+  "JavaScript",
+  "JQuery",
+  "React",
+  "Node.js",
+  "CodeIgniter",
+  "Express.js",
+  "Docker",
+  "MySQL",
+  "SQL",
+  "HTML",
+  "CSS",
+  "Angular",
+  "Vue",
+  ".NET MVC",
+  "Agile",
+];
+const email = "ardonitsaliji@gmail.com";
+---
+
+<Layout
+  title="Ardonit Saliji - Software Developer"
+  description="Portfolio of a results-driven software developer with experience in Java, PHP (CodeIgniter), and cloud platforms like AWS."
+>
+  <Header />
+
+  <main>
+    <Hero />
+
+    <section id="about" class="container">
+      <h2>About Me</h2>
+      <div class="about-grid">
+        <div class="about-image">
+          <img src="/images/profile.jpeg" alt="Ardonit Saliji" />
+        </div>
+        <div class="about-text">
+          <p>
+            I'm passionate about innovation and committed to staying current
+            with emerging trends, bringing full-stack proficiency to every
+            project. My experience is built on a versatile foundation, covering
+            modern UI development with <span class="highlight">React</span>
+            and <span class="highlight">Angular</span>, through to
+            engineering robust backends. This includes architecting
+            mission-critical systems with core <span class="highlight"
+              >Java</span
+            > services and managing scalable cloud infrastructure on <span
+              class="highlight">AWS</span
+            >, as well as contributing to high-traffic web platforms using <span
+              class="highlight">PHP (CodeIgniter)</span
+            > and other diverse frameworks like Node.js and .NET MVC.
+          </p>
+          <div class="contact-info">
+            <p><strong>Location:</strong> Tetovo, North Macedonia</p>
+            <p>
+              <strong>Email:</strong>
+              <a href={`mailto:${email}`}>{email}</a>
+            </p>
+            <p>
+              <strong>LinkedIn:</strong>
+              <a
+                href="https://www.linkedin.com/in/ardonitsaliji"
+                target="_blank">linkedin.com/in/ardonitsaliji</a
+              >
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience" class="container">
+      <h2>Work Experience</h2>
+      <div class="timeline">
+        <ExperienceItem
+          date="Aug 2025 - Present · 2 mos"
+          title="Software Engineer (Full-time)"
+          company="Dorms.com"
+          location="Remote"
+          description="Contributed to the core platform, developing features using PHP and CodeIgniter. Utilized AWS for cloud infrastructure and Docker for containerization. Managed database operations with MySQL. Enhanced the frontend using HTML, CSS, JavaScript, and JQuery, while integrating various Booking APIs."
+        />
+
+        <ExperienceItem
+          date="Jan 2025 - Present · 9 mos"
+          title="Software Engineer (Part-time)"
+          company="Dorms.com"
+          location="Remote"
+          description="Worked on foundational platform features utilizing PHP, CodeIgniter, and MySQL. Supported ongoing development and maintenance tasks to ensure system reliability and performance."
+        />
+
+        <ExperienceItem
+          date="Sep 2023 - Aug 2025 · 2 yrs"
+          title="Software Engineer (Full-time)"
+          company="HotelKey"
+          location="Tetovo, Polog, North Macedonia"
+          description="As a key member of the team, I developed and maintained core software solutions for the hospitality industry. I implemented complex backend functionalities utilizing Java and integrated third-party systems. I took on significant technical leadership roles, including spearheading a critical project migration from JDK 8 to JDK 24. Additionally, I mentored and guided junior developers in feature implementation, maintaining code quality, and orchestrated the integration of AWS services to improve scalability and reliability."
+        />
+        
+        <ExperienceItem
+          date="Jun 2023 - Sep 2023"
+          title="Software Developer Internship"
+          company="iSolve"
+          location="Tetovo, North Macedonia"
+          description="Developed dynamic web applications using Angular, reducing load times by 30% and enhancing user experience. Utilized the .NET MVC framework to create a modular and maintainable codebase. Acquired expertise in Agile methodologies, maximizing project efficiency and adaptability."
+        />
+
+        <ExperienceItem
+          date="2021 - Present"
+          title="Software Developer (Freelancing)"
+          company="Upwork"
+          location="Remote"
+          description="Developed responsive and user-friendly frontend interfaces using React, Angular, and Vue, ensuring optimal performance and cross-browser compatibility. Designed and implemented backend systems using Node.js and Express.js, including RESTful APIs for seamless data exchange."
+        />
+
+        <ExperienceItem
+          date="2021 - 2022"
+          title="Data Administrator"
+          company="Veeva Systems"
+          location="Germany (Remote)"
+          description="Contributed to cutting-edge technology and collaborated with a dedicated team in the life sciences industry. Focused on data administration to ensure data integrity and system reliability."
+        />
+      </div>
+    </section>
+
+    <section id="skills" class="container">
+      <h2>Skills & Technologies</h2>
+      <div class="skills-grid">
+        {skills.map((skill) => <SkillBadge name={skill} />)}
+      </div>
+    </section>
+
+    <section id="projects" class="container">
+      <h2>Featured Projects</h2>
+      <!-- <div class="projects-grid">
+        <ProjectCard
+          imgSrc="/images/project1.jpg"
+          title="Global Booking Platform"
+          description="A high-traffic booking platform built on PHP and CodeIgniter, utilizing AWS services for scalability and Docker for streamlined deployment. Features complex Booking API integrations."
+          tags={["PHP", "CodeIgniter", "AWS", "MySQL"]}
+          link="#"
+        />
+        <ProjectCard
+          imgSrc="/images/project2.jpg"
+          title="Hotel Management Service API"
+          description="A scalable microservices platform using Java, focusing on hotel management systems. Features API development, third-party integrations, and performance monitoring on AWS."
+          tags={["Java", "AWS", "SQL", "Microservices"]}
+          link="#"
+        />
+        <ProjectCard
+          imgSrc="/images/project3.jpg"
+          title="Full-Stack Freelance Solutions"
+          description="Developed custom web applications with frontends using React/Angular/Vue and backends using Node.js/Express.js for freelance clients."
+          tags={["React", "Node.js", "Angular", "Vue"]}
+          link="#"
+        />
+      </div> -->
+    </section>
+
+    <section id="contact" class="container">
+      <h2>Get In Touch</h2>
+      <p>
+        I'm currently open to new opportunities and interesting projects. Let's
+        build something amazing together.
+      </p>
+      <a href={`mailto:${email}`} class="button">Contact Me</a>
+    </section>
+  </main>
+
+  <Footer />
+</Layout>
